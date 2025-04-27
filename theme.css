@@ -1,0 +1,91 @@
+
+body {
+  --blockquote-border-thickness: 2px;
+
+  --link-color: #38859f;
+  --link-external-color: #38859f;
+
+  --link-decoration: none;
+  --link-decoration-hover: none;
+  --link-external-decoration: none;
+  --link-external-decoration-hover: none;
+
+  --icon-color: #8e8e93;
+
+  --font-text-theme: "Proxima Nova", Georgia, serif;
+  --font-interface-theme: "Proxima Nova", Georgia, serif;
+
+  --radius-s: 4px;
+  --radius-m: 6px;
+  --radius-l: 8px;
+  --radius-xl: 12px;
+
+  --button-radius: 6px;
+  --tab-radius: 6px;
+  --tab-curve: 6px;
+  --tab-radius-active: 6px;
+
+  --font-text-size: 18px;
+  --code-size: 14px;
+  --footnote-size: 14px;
+
+  --toggle-radius: 6px;
+  --toggle-thumb-radius: 6px;
+  --hr-thickness: 1px;
+  --checkbox-size: 16px;
+
+  --h1-weight: 400;
+  --h2-weight: 400;
+  --h3-weight: 400;
+  --h4-weight: 400;
+  --h5-weight: 400;
+  --h6-weight: 400;
+
+  --accent-h: 125;
+  --accent-s: 23%;
+  --accent-l: 59%;
+
+  --cursor-link: default;
+}
+
+.theme-light {
+  --color-base-00: #f8f4ef;
+  --color-base-05: #f8f4ef;
+  --color-base-10: #f8f4ef;
+  --color-base-20: #f0ebe5;
+
+  --table-header-background: #f0ebe5;
+  --table-border-color: #2c2c2c;
+
+  --text-normal: #2c2c2c;
+
+  --blockquote-border-color: #d1cbc3;
+
+  --link-color-hover: #1f5a01;
+  --link-external-color-hover: #1f5a01;
+
+  --code-background: #f0ebe5;
+
+  --list-marker-color: #2c2c2c;
+  --list-marker-color-collapsed: #2c2c2c;
+}
+
+.theme-dark {
+  --color-base-00: #1c1b1a;
+  --color-base-10: #1c1b1a;
+  --color-base-20: #252525;
+  --color-base-30: #2c2c2c;
+
+  --blockquote-border-color: #3a3a3a;
+
+  --icon-color: #8e8e93;
+
+  --text-normal: #e8e8e8;
+  --link-color-hover: #3a8a01;
+  --link-external-color-hover: #3a8a01;
+
+  --code-background: #252525;
+
+  --list-marker-color: #e8e8e8;
+  --list-marker-color-collapsed: #e8e8e8;
+}
